@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3ABA11E1F32E38700AFA3DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABA11D1F32E38700AFA3DB /* AppDelegate.swift */; };
+		C3ABA1201F32E38700AFA3DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABA11F1F32E38700AFA3DB /* ViewController.swift */; };
+		C3ABA1231F32E38700AFA3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3ABA1211F32E38700AFA3DB /* Main.storyboard */; };
+		C3ABA1251F32E38700AFA3DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3ABA1241F32E38700AFA3DB /* Assets.xcassets */; };
+		C3ABA1281F32E38700AFA3DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3ABA1261F32E38700AFA3DB /* LaunchScreen.storyboard */; };
+		C3ABA1331F32E38700AFA3DB /* MontyHallProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABA1321F32E38700AFA3DB /* MontyHallProblemTests.swift */; };
+		C3ABA13E1F32E38700AFA3DB /* MontyHallProblemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABA13D1F32E38700AFA3DB /* MontyHallProblemUITests.swift */; };
+		C3ABA14C1F32F06800AFA3DB /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABA14B1F32F06800AFA3DB /* DescriptionViewController.swift */; };
+		C3ABA14E1F32F08600AFA3DB /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABA14D1F32F08600AFA3DB /* VerificationViewController.swift */; };
+		C3ABA1521F32F97400AFA3DB /* phot.png in Resources */ = {isa = PBXBuildFile; fileRef = C3ABA1511F32F97400AFA3DB /* phot.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3ABA12F1F32E38700AFA3DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3ABA1121F32E38700AFA3DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3ABA1191F32E38700AFA3DB;
+			remoteInfo = MontyHallProblem;
+		};
+		C3ABA13A1F32E38700AFA3DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3ABA1121F32E38700AFA3DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3ABA1191F32E38700AFA3DB;
+			remoteInfo = MontyHallProblem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3ABA11A1F32E38700AFA3DB /* MontyHallProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MontyHallProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ABA11D1F32E38700AFA3DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3ABA11F1F32E38700AFA3DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3ABA1221F32E38700AFA3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3ABA1241F32E38700AFA3DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3ABA1271F32E38700AFA3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3ABA1291F32E38700AFA3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3ABA12E1F32E38700AFA3DB /* MontyHallProblemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MontyHallProblemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ABA1321F32E38700AFA3DB /* MontyHallProblemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontyHallProblemTests.swift; sourceTree = "<group>"; };
+		C3ABA1341F32E38700AFA3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3ABA1391F32E38700AFA3DB /* MontyHallProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MontyHallProblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ABA13D1F32E38700AFA3DB /* MontyHallProblemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontyHallProblemUITests.swift; sourceTree = "<group>"; };
+		C3ABA13F1F32E38700AFA3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3ABA14B1F32F06800AFA3DB /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		C3ABA14D1F32F08600AFA3DB /* VerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		C3ABA1511F32F97400AFA3DB /* phot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phot.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3ABA1171F32E38700AFA3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABA12B1F32E38700AFA3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABA1361F32E38700AFA3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3ABA1111F32E38700AFA3DB = {
+			isa = PBXGroup;
+			children = (
+				C3ABA11C1F32E38700AFA3DB /* MontyHallProblem */,
+				C3ABA1311F32E38700AFA3DB /* MontyHallProblemTests */,
+				C3ABA13C1F32E38700AFA3DB /* MontyHallProblemUITests */,
+				C3ABA11B1F32E38700AFA3DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3ABA11B1F32E38700AFA3DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABA11A1F32E38700AFA3DB /* MontyHallProblem.app */,
+				C3ABA12E1F32E38700AFA3DB /* MontyHallProblemTests.xctest */,
+				C3ABA1391F32E38700AFA3DB /* MontyHallProblemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3ABA11C1F32E38700AFA3DB /* MontyHallProblem */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABA11D1F32E38700AFA3DB /* AppDelegate.swift */,
+				C3ABA11F1F32E38700AFA3DB /* ViewController.swift */,
+				C3ABA1511F32F97400AFA3DB /* phot.png */,
+				C3ABA1211F32E38700AFA3DB /* Main.storyboard */,
+				C3ABA14D1F32F08600AFA3DB /* VerificationViewController.swift */,
+				C3ABA14B1F32F06800AFA3DB /* DescriptionViewController.swift */,
+				C3ABA1241F32E38700AFA3DB /* Assets.xcassets */,
+				C3ABA1261F32E38700AFA3DB /* LaunchScreen.storyboard */,
+				C3ABA1291F32E38700AFA3DB /* Info.plist */,
+			);
+			path = MontyHallProblem;
+			sourceTree = "<group>";
+		};
+		C3ABA1311F32E38700AFA3DB /* MontyHallProblemTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABA1321F32E38700AFA3DB /* MontyHallProblemTests.swift */,
+				C3ABA1341F32E38700AFA3DB /* Info.plist */,
+			);
+			path = MontyHallProblemTests;
+			sourceTree = "<group>";
+		};
+		C3ABA13C1F32E38700AFA3DB /* MontyHallProblemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABA13D1F32E38700AFA3DB /* MontyHallProblemUITests.swift */,
+				C3ABA13F1F32E38700AFA3DB /* Info.plist */,
+			);
+			path = MontyHallProblemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3ABA1191F32E38700AFA3DB /* MontyHallProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ABA1421F32E38700AFA3DB /* Build configuration list for PBXNativeTarget "MontyHallProblem" */;
+			buildPhases = (
+				C3ABA1161F32E38700AFA3DB /* Sources */,
+				C3ABA1171F32E38700AFA3DB /* Frameworks */,
+				C3ABA1181F32E38700AFA3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MontyHallProblem;
+			productName = MontyHallProblem;
+			productReference = C3ABA11A1F32E38700AFA3DB /* MontyHallProblem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3ABA12D1F32E38700AFA3DB /* MontyHallProblemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ABA1451F32E38700AFA3DB /* Build configuration list for PBXNativeTarget "MontyHallProblemTests" */;
+			buildPhases = (
+				C3ABA12A1F32E38700AFA3DB /* Sources */,
+				C3ABA12B1F32E38700AFA3DB /* Frameworks */,
+				C3ABA12C1F32E38700AFA3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3ABA1301F32E38700AFA3DB /* PBXTargetDependency */,
+			);
+			name = MontyHallProblemTests;
+			productName = MontyHallProblemTests;
+			productReference = C3ABA12E1F32E38700AFA3DB /* MontyHallProblemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3ABA1381F32E38700AFA3DB /* MontyHallProblemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3ABA1481F32E38700AFA3DB /* Build configuration list for PBXNativeTarget "MontyHallProblemUITests" */;
+			buildPhases = (
+				C3ABA1351F32E38700AFA3DB /* Sources */,
+				C3ABA1361F32E38700AFA3DB /* Frameworks */,
+				C3ABA1371F32E38700AFA3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3ABA13B1F32E38700AFA3DB /* PBXTargetDependency */,
+			);
+			name = MontyHallProblemUITests;
+			productName = MontyHallProblemUITests;
+			productReference = C3ABA1391F32E38700AFA3DB /* MontyHallProblemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3ABA1121F32E38700AFA3DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yoshiki Togashi";
+				TargetAttributes = {
+					C3ABA1191F32E38700AFA3DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A43L77VGT5;
+						ProvisioningStyle = Automatic;
+					};
+					C3ABA12D1F32E38700AFA3DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A43L77VGT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3ABA1191F32E38700AFA3DB;
+					};
+					C3ABA1381F32E38700AFA3DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A43L77VGT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3ABA1191F32E38700AFA3DB;
+					};
+				};
+			};
+			buildConfigurationList = C3ABA1151F32E38700AFA3DB /* Build configuration list for PBXProject "MontyHallProblem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3ABA1111F32E38700AFA3DB;
+			productRefGroup = C3ABA11B1F32E38700AFA3DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3ABA1191F32E38700AFA3DB /* MontyHallProblem */,
+				C3ABA12D1F32E38700AFA3DB /* MontyHallProblemTests */,
+				C3ABA1381F32E38700AFA3DB /* MontyHallProblemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3ABA1181F32E38700AFA3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ABA1281F32E38700AFA3DB /* LaunchScreen.storyboard in Resources */,
+				C3ABA1251F32E38700AFA3DB /* Assets.xcassets in Resources */,
+				C3ABA1521F32F97400AFA3DB /* phot.png in Resources */,
+				C3ABA1231F32E38700AFA3DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABA12C1F32E38700AFA3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABA1371F32E38700AFA3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3ABA1161F32E38700AFA3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ABA14C1F32F06800AFA3DB /* DescriptionViewController.swift in Sources */,
+				C3ABA1201F32E38700AFA3DB /* ViewController.swift in Sources */,
+				C3ABA14E1F32F08600AFA3DB /* VerificationViewController.swift in Sources */,
+				C3ABA11E1F32E38700AFA3DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABA12A1F32E38700AFA3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ABA1331F32E38700AFA3DB /* MontyHallProblemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3ABA1351F32E38700AFA3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3ABA13E1F32E38700AFA3DB /* MontyHallProblemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3ABA1301F32E38700AFA3DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3ABA1191F32E38700AFA3DB /* MontyHallProblem */;
+			targetProxy = C3ABA12F1F32E38700AFA3DB /* PBXContainerItemProxy */;
+		};
+		C3ABA13B1F32E38700AFA3DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3ABA1191F32E38700AFA3DB /* MontyHallProblem */;
+			targetProxy = C3ABA13A1F32E38700AFA3DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3ABA1211F32E38700AFA3DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3ABA1221F32E38700AFA3DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3ABA1261F32E38700AFA3DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3ABA1271F32E38700AFA3DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3ABA1401F32E38700AFA3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3ABA1411F32E38700AFA3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3ABA1431F32E38700AFA3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A43L77VGT5;
+				INFOPLIST_FILE = MontyHallProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi.MontyHallProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C3ABA1441F32E38700AFA3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A43L77VGT5;
+				INFOPLIST_FILE = MontyHallProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi.MontyHallProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C3ABA1461F32E38700AFA3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A43L77VGT5;
+				INFOPLIST_FILE = MontyHallProblemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi.MontyHallProblemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MontyHallProblem.app/MontyHallProblem";
+			};
+			name = Debug;
+		};
+		C3ABA1471F32E38700AFA3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A43L77VGT5;
+				INFOPLIST_FILE = MontyHallProblemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi.MontyHallProblemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MontyHallProblem.app/MontyHallProblem";
+			};
+			name = Release;
+		};
+		C3ABA1491F32E38700AFA3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A43L77VGT5;
+				INFOPLIST_FILE = MontyHallProblemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi.MontyHallProblemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MontyHallProblem;
+			};
+			name = Debug;
+		};
+		C3ABA14A1F32E38700AFA3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A43L77VGT5;
+				INFOPLIST_FILE = MontyHallProblemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi.MontyHallProblemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MontyHallProblem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3ABA1151F32E38700AFA3DB /* Build configuration list for PBXProject "MontyHallProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ABA1401F32E38700AFA3DB /* Debug */,
+				C3ABA1411F32E38700AFA3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3ABA1421F32E38700AFA3DB /* Build configuration list for PBXNativeTarget "MontyHallProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ABA1431F32E38700AFA3DB /* Debug */,
+				C3ABA1441F32E38700AFA3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3ABA1451F32E38700AFA3DB /* Build configuration list for PBXNativeTarget "MontyHallProblemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ABA1461F32E38700AFA3DB /* Debug */,
+				C3ABA1471F32E38700AFA3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3ABA1481F32E38700AFA3DB /* Build configuration list for PBXNativeTarget "MontyHallProblemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3ABA1491F32E38700AFA3DB /* Debug */,
+				C3ABA14A1F32E38700AFA3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3ABA1121F32E38700AFA3DB /* Project object */;
+}
